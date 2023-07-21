@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind</title>
+    <link rel="icon" href="./icons8-google-48.png">
+    <link rel="stylesheet" href="./tailwind.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="font-sans h-screen flex justify-center items-center bg-gray-300">
+    <div id="container" class="w-3/5 h-5/6 bg-red-400 rounded-3xl flex overflow-hidden">
+        <!-- left box stert -->
+            <!-- top left items start -->
+        <div id="left-side" class="w-1/2 h-full bg-white px-8 py-6">
+            <div id="top-left-items-container" class="flex justify-between mb-8">
+                <p class="uppercase font-bold text-xl">haze.</p>
+                <select name="select-list" id="select-list" class="border-1 border-black rounded-3xl px-3 py-1 flex justify-center items-center ">
+                    <option value="us">&#1F1EE; us</option>
+                    <option value="ir">🇮🇷 ir</option>
+                    <option value="uk">🇬🇧 uk</option>
+                </select>
+            </div>
+            <!-- top left items end -->
+            <!-- main textes start -->
+            <div id="main-textes-container" class="flex flex-col items-center">
+                <p class=" font-bold text-7xl mb-0 text-gray-900">hi there!</p>
+                <p class="text-xs mb-4 text-gray-500">wellcome to HAZE. comunity dashboard</p>
+            </div>
+            <div id="padding-container" class="flex flex-col justify-center items-center px-10">
+                <div id="login-with-google-box" class="mb-1 w-full py-2 text-xs text-gray-400 border-2 border-gray-300 rounded-lg flex justify-center items-center hover:bg-gray-900 hover:border-gray-900">
+                    <img src="./icons8-google-48.png" alt="google-logo" class="w-4 mr-1">
+                    <p class="text-xs">log in with google</p>
+                </div>
+                <div id="braker-conteiner" class="flex items-center mb-2">
+                    <hr class="w-10"><p class="px-3 mb-1 text-gray-500 text-xs">or</p><hr class="w-10">
+                </div>
+                <input type="email" id="email" placeholder="your email:" class="mb-3 w-full bg-transparent border-2 border-gray-300 font-bold rounded-lg text-xs text-gray-400 py-2 px-3 focus:border-none focus:outline-none focus:bg-gray-900 focus:border-gray-900 cursor-auto">
+                <input type="password" id="password" placeholder="your password:" class="mb-0 w-full bg-transparent border-2 border-gray-300 font-bold rounded-lg text-xs text-gray-400 py-2 px-3 focus:border-none focus:outline-none focus:bg-gray-900 focus:border-gray-900 cursor-auto">
+                <p class="mb-3" id="right"><a href="#" class="text-blue-700 text-xs">forgot password?</a></p>
+                <button id="login" type="submit" class="w-full text-xs py-2 text-white bg-gray-900 rounded-2xl mb-3 border-2 border-gray-900 hover:bg-transparent hover:text-gray-900">login</button>
+                <p class="text-xs text-gray-500">don't have an account? <a href="#" class="text-blue-700 text-xs">create now</a></p>
+                </div>
+            </div>
+        <!-- left box end -->
+        <!-- right box stert -->
+        <div id="right-side" class="w-1/2 h-full bg-red-500 px-8 py-6">
+            <div id="buttons-conteiner" class="flex flex-row-reverse mb-5">
+                <button id="joinus" class="text-xs py-2 text-white bg-transparent px-5 border-2 border-white rounded-3xl">join us</button>
+                <button id="signup" class="text-xs py-2 text-white bg-transparent px-5">sign up</button>
+            </div>
+            <div id="comunity-box-conteiner" class="flex justify-between items-center pr-2 mb-40">
+                <div id="comunity-box" class="flex items-center">
+                    <img src="./icons8-contact-info-48.png" alt="contact" class="w-10 mr-2">
+                    <p class="text-white text-xs">largest space<br>comunity</p>
+                </div>
+                <hr class="w-10">
+            </div>
+            <div id="margin" class="h-12">
+
+            </div>
+            <div id="bottom-right-text-box-conteiner">
+                <div id="bottom-right-box-conteiner-text">
+                <p class="text-white text-7xl italic" id="line-height">"</p>
+                <p class="text-white text-2xl">go anywere you want in a<br>galaxy full of wanders!</p>
+                </div>
+            </div>
+            <div id="bottom-arrow-box-conteiner" class="flex flex-row-reverse">
+                <div class="buttons w-10 h-10 border-2 border-gray-400 rounded-3xl flex justify-center items-center ml-2 bg-gray-400 hover:bg-gray-700"><img src="./icons8-right-arrow-24.png" alt="arrow" class="w-3"></div>
+                <div class="buttons w-10 h-10 border-2 border-gray-400 rounded-3xl flex justify-center items-center bg-gray-400 hover:bg-gray-700"><img src="./icons8-left-arrow-24 (1).png" alt="arrow" class="w-3"></div>
+            </div>
+        </div>
+        <!-- right box end -->
+        </div>
+
+
+    </div>
+</body>
+</html>

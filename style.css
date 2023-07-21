@@ -1,0 +1,15 @@
+* {
+  transition: all ease 0.3s;
+  cursor: default;
+}
+#line-height {
+  line-height: 5%;
+}
+#right-side {
+  background-image: url(./pexels-alex-andrews-3805983.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#login-with-google-box ,#login-with-google-box img, #login-with-google-box p, .buttons ,.buttons img, a{
+    cursor: pointer;
+}
